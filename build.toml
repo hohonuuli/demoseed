@@ -25,6 +25,20 @@ scalaOptions = [
 ]
 testFrameworks = ["org.scalatest.tools.Framework"]
 
+[package]
+name = "demoseed"
+organisation = "com.github.hohonuuli"
+developers = [["hohonuuli", "Brian Schlining", "bschlining@fake.email"]]
+url = "https://github.com/hohonuuli/demoseed"
+licences = ["apache:2.0"]
+scm = {
+  url = "https://github.com/hohonuuli/demoseed",
+  connection = "scm:git:git@github.com:hohonuuli/demoseed.git",
+  developerConnection = "scm:git:git@github.com:hohonuuli/demoseed.git"
+}
+sources = true
+docs = true
+
 [module.demoseed.jvm]
 root = "."
 resources = [
